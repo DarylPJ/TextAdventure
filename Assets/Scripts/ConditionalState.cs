@@ -4,18 +4,15 @@ using UnityEngine;
 [CreateAssetMenu(menuName = nameof(ConditionalState))]
 public class ConditionalState : StateBase
 {
-    [TextArea(10, 14), SerializeField] private string storyTextWithItem;
-    [SerializeField] private StateBase[] nextStatesWithArmour;
-
     [SerializeField] private ItemCondition[] statesBasedOnItems;
 
-    public override string GetStateStory(Player player) 
+    public override StateStory GetStateStory(Player player) 
     {
         var state = FindFirstItemCondition(player);
 
         if (state != null)
         {
-            return state.storyText;
+            return state.StateStory.GetStateStory(player);
         }
 
         return base.GetStateStory(player);
@@ -27,7 +24,7 @@ public class ConditionalState : StateBase
 
         if (state != null)
         {
-            return state.nextStates;
+            return state.StateStory.GetNextStates(player);
         }
 
         return base.GetNextStates(player);

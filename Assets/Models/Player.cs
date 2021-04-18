@@ -1,4 +1,6 @@
-﻿public class Player
+﻿using System.Collections.Generic;
+
+public class Player
 {
-    public PlayerItem[] Items { get; set; }
+    public IList<PlayerItem> Items { get; } = new List<PlayerItem>();
 }

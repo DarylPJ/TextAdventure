@@ -28,7 +28,8 @@ public class AdventureGame : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        textComponent.text = state.GetStateStory(player);
+        var stateStory = state.GetStateStory(player);
+        textComponent.text = stateStory.StoryText;
     }
 
     private void ManageButtons()
@@ -45,11 +46,25 @@ public class AdventureGame : MonoBehaviour
         }
     }
 
+    private void ManageItems(StateStory stateStory)
+    {
+        foreach (var item in stateStory.ItemsToAdd)
+        {
+            player.Items.Add(item);
+        }
+
+        foreach (var item in stateStory.ItemsToRemove)
+        {
+            player.Items.Remove(item);
+        }
+    }
+
     private void OnButtonClick(string buttonName)
     {
         var showState = buttons.FindIndex(i => i.name == buttonName);
 
         state = state.GetNextStates(player)[showState];
         ManageButtons();
+        ManageItems(state.GetStateStory(player)); ;
     }
 }
