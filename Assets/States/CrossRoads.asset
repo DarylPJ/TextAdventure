@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
   m_Name: CrossRoads
   m_EditorClassIdentifier: 
-  storyText: "You reach a crossroads. There is a sign that points to several directions
+  story:
+    StoryText: "You reach a crossroads. There is a sign that points to several directions
     should you:\r\n\r\n1) Head West to the confounding forest\r\n2) Head North to
     the castle \r\n3) Head East to the village  \r\n4) Head back to the cave"
+    ItemsToRemove: 
+    ItemsToAdd: 
   nextStates:
   - {fileID: 11400000, guid: 61d074490aa1cd34d9bb94005d915157, type: 2}
   - {fileID: 11400000, guid: 3b3747244f5b31a4bb61b912f4058418, type: 2}

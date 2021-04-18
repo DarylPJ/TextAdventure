@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
   m_Name: CF4
   m_EditorClassIdentifier: 
-  storyText: "?\r\n\n1) North\r\n2) East\r\n3) South\r\n4) West \r\n"
+  story:
+    StoryText: "?\r\n\n1) North\r\n2) East\r\n3) South\r\n4) West \r\n"
+    ItemsToRemove: 
+    ItemsToAdd: 
   nextStates:
   - {fileID: 11400000, guid: 3e3528a85adaf8240b0647dcc52b6d11, type: 2}
   - {fileID: 11400000, guid: 3e3528a85adaf8240b0647dcc52b6d11, type: 2}
   - {fileID: 11400000, guid: 3e3528a85adaf8240b0647dcc52b6d11, type: 2}
-  - {fileID: 11400000, guid: 1325794cdea82ac41be2530fde6507f8, type: 2}
+  - {fileID: 0}

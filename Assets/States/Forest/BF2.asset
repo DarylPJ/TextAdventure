@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
   m_Name: BF2
   m_EditorClassIdentifier: 
-  storyText: "Where now?\r\n\n1) North\r\n2) East\r\n3) South\r\n4) West \r\n"
+  story:
+    StoryText: "Where now?\r\n\n1) North\r\n2) East\r\n3) South\r\n4) West \r\n"
+    ItemsToRemove: 
+    ItemsToAdd: 
   nextStates:
   - {fileID: 11400000, guid: 0e8983e1bd6f12f4e94770f934b9c50c, type: 2}
   - {fileID: 11400000, guid: 0e8983e1bd6f12f4e94770f934b9c50c, type: 2}

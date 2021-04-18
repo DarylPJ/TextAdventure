@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
   m_Name: CF1
   m_EditorClassIdentifier: 
-  storyText: "The forest grows darker. Are you getting close to anything? Its hard
+  story:
+    StoryText: "The forest grows darker. Are you getting close to anything? Its hard
     to know where you are. Should you move:\r\n\n1) North\r\n2) East\r\n3) South\r\n4)
     West \r\n"
+    ItemsToRemove: 
+    ItemsToAdd: 
   nextStates:
   - {fileID: 11400000, guid: aa3c80372cab7b94a9379eebd6fc3d24, type: 2}
   - {fileID: 11400000, guid: aa3c80372cab7b94a9379eebd6fc3d24, type: 2}

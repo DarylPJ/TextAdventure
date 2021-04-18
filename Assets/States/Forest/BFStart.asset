@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
   m_Name: BFStart
   m_EditorClassIdentifier: 
-  storyText: "A clearing emerges up ahead. You rush towards it. WHAT! HOW! You have
+  story:
+    StoryText: "A clearing emerges up ahead. You rush towards it. WHAT! HOW! You have
     gone in a circle and are back at the entrance to the forest. \r\n\r\n1) Head
     into the forest\r\n2) Back to the crossroads \r"
+    ItemsToRemove: 
+    ItemsToAdd: 
   nextStates:
   - {fileID: 11400000, guid: 79554333129b5e94f8e1da5fdbf5a064, type: 2}
   - {fileID: 11400000, guid: 87fe16556f7bfd24ca99c2cf3d6885e4, type: 2}

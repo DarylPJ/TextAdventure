@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
   m_Name: Start
   m_EditorClassIdentifier: 
-  storyText: "Thank you for downloading this game! \r\n\r\nI hope you enjoy the short
+  story:
+    StoryText: "Thank you for downloading this game! \r\n\r\nI hope you enjoy the short
     text adventure ahead. \n\nPress 1 to begin.  \r\n"
+    ItemsToRemove: []
+    ItemsToAdd: []
   nextStates:
   - {fileID: 11400000, guid: 9f65baf732d74164da0f49e4c03bf52c, type: 2}

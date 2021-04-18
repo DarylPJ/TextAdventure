@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
   m_Name: BF3
   m_EditorClassIdentifier: 
-  storyText: "Afraid and helpless. What\u2019s your next move?\r\n\n1) North\r\n2)
+  story:
+    StoryText: "Afraid and helpless. What\u2019s your next move?\r\n\n1) North\r\n2)
     East\r\n3) South\r\n4) West \r\n"
+    ItemsToRemove: 
+    ItemsToAdd: 
   nextStates:
   - {fileID: 11400000, guid: 232f765b661e89d4a9005eaae30e1baa, type: 2}
   - {fileID: 11400000, guid: 232f765b661e89d4a9005eaae30e1baa, type: 2}

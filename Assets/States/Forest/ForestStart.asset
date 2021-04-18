@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66ea95e66e7218546b892418c672dc32, type: 3}
   m_Name: ForestStart
   m_EditorClassIdentifier: 
-  storyText: "You stand at the entrance to a forest. A sign reads \u201CThe Confounding
+  story:
+    StoryText: "You stand at the entrance to a forest. A sign reads \u201CThe Confounding
     Forest. Turn back now\u201D\r\n\r\n1) Head into the forest\r\n2) Back to the
     crossroads\r\n"
+    ItemsToRemove: 
+    ItemsToAdd: 
   nextStates:
   - {fileID: 11400000, guid: 79554333129b5e94f8e1da5fdbf5a064, type: 2}
   - {fileID: 11400000, guid: 87fe16556f7bfd24ca99c2cf3d6885e4, type: 2}
-  storyTextWithArmour: "You stand at the entrance to a forest. A sign reads \u201CThe
-    Confounding Forest. Turn back now\u201D \r\nThere is nothing left to find in
-    here now you have the armour and a sword.  \r\n\r\n1) Back to the crossroads
-    \r\n"
-  nextStatesWithArmour:
-  - {fileID: 11400000, guid: 87fe16556f7bfd24ca99c2cf3d6885e4, type: 2}
+  storyTextWithItem: 
+  nextStatesWithArmour: []
+  statesBasedOnItems: []

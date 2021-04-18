@@ -9,11 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d8db0f02f17b7c42a2114de9a10ad9c, type: 3}
-  m_Name: FoundHiddenArmour
+  m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
+  m_Name: New Static State
   m_EditorClassIdentifier: 
-  storyText: "A clearing emerges up ahead. You rush towards it. WOW! \r\n\r\nArmour
-    and a sword just sat there. You try on the armour and it fits perfectly. The
-    sword fits nicely in your hand.\r\n\r\n1) Leave forest \r"
-  nextStates:
-  - {fileID: 11400000, guid: 87fe16556f7bfd24ca99c2cf3d6885e4, type: 2}
+  story:
+    StoryText: "A clearing emerges up ahead. You rush towards it. WOW! \n\nArmour
+      and a sword just sat there. You try on the armour and it fits perfectly. The 
+      sword fits nicely in your hand.\n\n1) Leave forest"
+    ItemsToRemove: 
+    ItemsToAdd: 
+  nextStates: []

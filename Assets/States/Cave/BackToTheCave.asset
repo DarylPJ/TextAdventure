@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
   m_Name: BackToTheCave
   m_EditorClassIdentifier: 
-  storyText: "You look around the cave and think about how you could have just sat
+  story:
+    StoryText: "You look around the cave and think about how you could have just sat
     here and died. It makes you more determined than anything to continue. \r\n\n1)
     Leave the cave\r\n"
+    ItemsToRemove: 
+    ItemsToAdd: 
   nextStates:
   - {fileID: 11400000, guid: 87fe16556f7bfd24ca99c2cf3d6885e4, type: 2}

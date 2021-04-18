@@ -12,12 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
   m_Name: SureYouWantToStay
   m_EditorClassIdentifier: 
-  storyText: 'Sure?
+  story:
+    StoryText: 'Sure?
 
 
     1) Yes
 
     2) No. Get me out of here!'
+    ItemsToRemove: 
+    ItemsToAdd: 
   nextStates:
   - {fileID: 11400000, guid: 05731dce41b82bc4ebc1275176fd8eee, type: 2}
   - {fileID: 11400000, guid: 87fe16556f7bfd24ca99c2cf3d6885e4, type: 2}
