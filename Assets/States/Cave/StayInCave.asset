@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
+  m_Name: StayInCave
+  m_EditorClassIdentifier: 
+  storyText: "You sit motionless accepting your fate.\r\n\r\nSlowly you feel cold.\r\nColder
+    than ice.\r\nColder than you could have imagined possible.\r\nYou then feel yourself
+    drifting away.  What should you do:\r\n\r\n1) Stay down\r\n2) Get up out of this
+    cave! There\u2019s adventuring to be done\r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 9e0fcb61fa723404db766a5e41369916, type: 2}
+  - {fileID: 11400000, guid: 87fe16556f7bfd24ca99c2cf3d6885e4, type: 2}

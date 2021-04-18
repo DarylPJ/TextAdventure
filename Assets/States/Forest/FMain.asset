@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66ea95e66e7218546b892418c672dc32, type: 3}
+  m_Name: FMain
+  m_EditorClassIdentifier: 
+  storyText: "Surrounded by trees it is hard to know where you are. \nWhich way should
+    you go:\r\n\n1) North\r\n2) East\r\n3) South\r\n4) West \r\n5) Back to forest
+    entrance"
+  nextStates:
+  - {fileID: 11400000, guid: c5c044a123d732d499b628dc7af86243, type: 2}
+  - {fileID: 11400000, guid: b33de0b8ef9c80741837a7e0e8680b42, type: 2}
+  - {fileID: 11400000, guid: b33de0b8ef9c80741837a7e0e8680b42, type: 2}
+  - {fileID: 11400000, guid: b33de0b8ef9c80741837a7e0e8680b42, type: 2}
+  - {fileID: 11400000, guid: 61d074490aa1cd34d9bb94005d915157, type: 2}
+  storyTextWithArmour: 
+  nextStatesWithArmour: []

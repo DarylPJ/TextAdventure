@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
+  m_Name: CF2
+  m_EditorClassIdentifier: 
+  storyText: "Where now?\r\n\n1) North\r\n2) East\r\n3) South\r\n4) West \r\n"
+  nextStates:
+  - {fileID: 11400000, guid: 0e8983e1bd6f12f4e94770f934b9c50c, type: 2}
+  - {fileID: 11400000, guid: 5434374f7605c3f48a7e355e75c87aee, type: 2}
+  - {fileID: 11400000, guid: 0e8983e1bd6f12f4e94770f934b9c50c, type: 2}
+  - {fileID: 11400000, guid: 0e8983e1bd6f12f4e94770f934b9c50c, type: 2}
