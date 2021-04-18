@@ -2,10 +2,10 @@
 
 public abstract class StateBase : ScriptableObject
 {
-    [TextArea(10, 14), SerializeField] protected string storyText;
-    [SerializeField] protected StateBase[] nextStates;
+    [SerializeField] private StateStory story;
+    [SerializeField] private StateBase[] nextStates;
 
-    public virtual string GetStateStory(Player player) => storyText;
+    public virtual string GetStateStory(Player player) => story.StoryText;
 
     public virtual StateBase[] GetNextStates(Player player) => nextStates;
 }
