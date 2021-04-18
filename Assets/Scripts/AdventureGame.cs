@@ -1,10 +1,11 @@
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class AdventureGame : MonoBehaviour
 {
-    [SerializeField] private Text textComponent;
+    [SerializeField] private TMP_Text textComponent;
     [SerializeField] private State startingState;
     [SerializeField] private List<Button> buttons;
 
