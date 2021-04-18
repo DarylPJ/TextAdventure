@@ -6,11 +6,11 @@ using UnityEngine.UI;
 public class AdventureGame : MonoBehaviour
 {
     [SerializeField] private TMP_Text textComponent;
-    [SerializeField] private State startingState;
+    [SerializeField] private StateBase startingState;
     [SerializeField] private List<Button> buttons;
 
-
-    private State state;
+    private StateBase state;
+    private readonly Player player = new Player();
 
     // Start is called before the first frame update
     private void Start()
@@ -28,14 +28,14 @@ public class AdventureGame : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        textComponent.text = state.GetStateStory;
+        textComponent.text = state.GetStateStory(player);
     }
 
     private void ManageButtons()
     {
         for (int i = 0; i < buttons.Count; i++)
         {
-            if(state.GetNextStates.Length > i)
+            if(state.GetNextStates(player).Length > i)
             {
                 buttons[i].enabled = true;
                 continue;
@@ -49,7 +49,7 @@ public class AdventureGame : MonoBehaviour
     {
         var showState = buttons.FindIndex(i => i.name == buttonName);
 
-        state = state.GetNextStates[showState];
+        state = state.GetNextStates(player)[showState];
         ManageButtons();
     }
 }

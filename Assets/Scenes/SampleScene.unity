@@ -494,7 +494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1071038283}
-  startingState: {fileID: 11400000, guid: 2d1dc25b2b1912b45a05c2cc26aed4f8, type: 2}
+  startingState: {fileID: 11400000, guid: 61f5562b0b826504084973a02dcf07aa, type: 2}
   buttons:
   - {fileID: 117356300}
   - {fileID: 1771190779}
@@ -1359,7 +1359,7 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 0}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
