@@ -7,5 +7,7 @@
     CastleGateOpen,
     HouseKey,
     HouseOpen,
-    BeenToMarket
+    BeenToMarket,
+    ArchieLoveLetter,
+    ArchieLoveLetterDelivered
 }

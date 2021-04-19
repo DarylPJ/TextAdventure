@@ -10,15 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66ea95e66e7218546b892418c672dc32, type: 3}
-  m_Name: InsideHouse
+  m_Name: OpenDoor
   m_EditorClassIdentifier: 
   story:
-    StoryText: "The house looks like it has been looted. You walk around and notice
-      an engraving  on the wall next to your bed. \r\n\r\nOn the wall you see a picture
-      of a sword and some trees with the letters N, S, E, E, W. What could this be
-      referring to? \r\n\r\n1) leave house\r"
+    StoryText: "The door is locked. \r\n\r\n1) Return to village square \r\n"
     ItemsToRemove: 
     ItemsToAdd: 
   nextStates:
   - {fileID: 11400000, guid: 59ed346635a28da4a9d75adadb5380af, type: 2}
-  statesBasedOnItems: []
+  statesBasedOnItems:
+  - Key: 5
+    StateStory: {fileID: 11400000, guid: 7640abfd46e6f4b419248b40efb39c4e, type: 2}

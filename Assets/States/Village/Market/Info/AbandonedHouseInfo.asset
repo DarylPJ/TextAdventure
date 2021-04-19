@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
+  m_Name: AbandonedHouseInfo
+  m_EditorClassIdentifier: 
+  story:
+    StoryText: "\u201CThat was your house. I believe the locks have been changed
+      and ownership has reverted to the church. You might be able to get access if
+      you ask the bishop.\u201D\n\n1) \u201CTell me about the Tavern\u201D \r\n2)
+      \u201CTell me about the church\u201D\r\n3) \u201CWhat do I need to do again\u201D\n4)
+      Return to the village square  \r"
+    ItemsToRemove: 
+    ItemsToAdd: 
+  nextStates:
+  - {fileID: 11400000, guid: 6573675fb7ff4d9458161719d526c145, type: 2}
+  - {fileID: 11400000, guid: a22ec58531e1e344baf8470589a1896c, type: 2}
+  - {fileID: 11400000, guid: 8e6e7a09511766049a4ae9fc87170d24, type: 2}
+  - {fileID: 11400000, guid: 59ed346635a28da4a9d75adadb5380af, type: 2}

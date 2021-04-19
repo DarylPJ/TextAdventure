@@ -16,8 +16,13 @@ MonoBehaviour:
     StoryText: "Do you have something you want to say to Anabelle?\n\n1) \u201CTell
       me about the Tavern\u201D \r\n2) \u201CTell me about the church\u201D\r\n3)
       \u201CTell me about the abandoned house\u201D\r\n4) \u201CWhat do I need to
-      do again\u201D"
+      do again\u201D\n5) Return to the village square  \r"
     ItemsToRemove: 
     ItemsToAdd: 
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 6573675fb7ff4d9458161719d526c145, type: 2}
+  - {fileID: 11400000, guid: a22ec58531e1e344baf8470589a1896c, type: 2}
+  - {fileID: 11400000, guid: 63243bac916aed445ad84382bbe61ebe, type: 2}
+  - {fileID: 11400000, guid: 8e6e7a09511766049a4ae9fc87170d24, type: 2}
+  - {fileID: 11400000, guid: 59ed346635a28da4a9d75adadb5380af, type: 2}
   statesBasedOnItems: []

@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
-  m_Name: Key
+  m_Name: A1LoveLetter
   m_EditorClassIdentifier: 
   story:
-    StoryText: "You use your house key. You have no memory of opening this door before.\r\n\r\n1)
-      Proceed inside\r\n2) Return to village square \r\n"
-    ItemsToRemove: 
-    ItemsToAdd: 06000000
+    StoryText: "\u201CFor me. Wow!\u201D \r\nAnabelle reads the letter intensely
+      and askes you tell Archie he has a date\r\n\r\n1) Return to village square\r\n2)
+      Keep talking to Anabelle\r\n"
+    ItemsToRemove: 08000000
+    ItemsToAdd: 09000000
   nextStates:
-  - {fileID: 11400000, guid: 26044d2fbd2fbfe4ebdae17cc4275679, type: 2}
   - {fileID: 11400000, guid: 59ed346635a28da4a9d75adadb5380af, type: 2}
+  - {fileID: 11400000, guid: bb02b17db7551474884e64adb8d1c12d, type: 2}

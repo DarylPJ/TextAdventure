@@ -10,13 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
-  m_Name: Key
+  m_Name: LoveLetter
   m_EditorClassIdentifier: 
   story:
-    StoryText: "You use your house key. You have no memory of opening this door before.\r\n\r\n1)
-      Proceed inside\r\n2) Return to village square \r\n"
+    StoryText: "You walk over to Anabelle. \"Is that a letter for me. Whats it about?\"\r\n\r\n1)
+      \"it\u2019s a love letter from Archie\r\"\n2) \"Probably some bills\r\"\n"
     ItemsToRemove: 
-    ItemsToAdd: 06000000
+    ItemsToAdd: 
   nextStates:
-  - {fileID: 11400000, guid: 26044d2fbd2fbfe4ebdae17cc4275679, type: 2}
-  - {fileID: 11400000, guid: 59ed346635a28da4a9d75adadb5380af, type: 2}
+  - {fileID: 0}
