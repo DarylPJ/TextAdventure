@@ -13,8 +13,15 @@ MonoBehaviour:
   m_Name: HouseEntrance
   m_EditorClassIdentifier: 
   story:
-    StoryText: 
+    StoryText: "You walk up to an abandoned house. It looks like it hasn\u2019t been
+      abandoned for long.\r\n\r\n1) Enter house\r\n2) Back to village square\r\n"
     ItemsToRemove: 
     ItemsToAdd: 
-  nextStates: []
-  statesBasedOnItems: []
+  nextStates:
+  - {fileID: 11400000, guid: 9831187c56547044d8e464c1a7c0f671, type: 2}
+  - {fileID: 11400000, guid: 59ed346635a28da4a9d75adadb5380af, type: 2}
+  statesBasedOnItems:
+  - Key: 6
+    StateStory: {fileID: 11400000, guid: 26044d2fbd2fbfe4ebdae17cc4275679, type: 2}
+  - Key: 5
+    StateStory: {fileID: 11400000, guid: 7640abfd46e6f4b419248b40efb39c4e, type: 2}

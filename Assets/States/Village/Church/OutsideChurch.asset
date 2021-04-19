@@ -19,7 +19,7 @@ MonoBehaviour:
       \u201CI just want to see the bishop\u201D\r\n2) \u201CI think you have me mistaken
       for someone else\u201D\r\n3) \u201CWhat have I done to you\u201D\r\n4) \u201CIsn\u2019t
       everyone welcome in the church?\u201D\r\n5) \u201CDo you want to fight?\u201D\r\n6)
-      Leave and go back to the village square \r\n"
+      Go back to the village square \r\n"
     ItemsToRemove: 
     ItemsToAdd: 01000000
   nextStates:

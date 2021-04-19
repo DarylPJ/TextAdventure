@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: Key
   m_EditorClassIdentifier: 
   story:
-    StoryText: 
-    ItemsToRemove: 
+    StoryText: "You use your house key. You have no memory of opening this door before.\r\n\r\n1)
+      Proceed inside\r\n2) Return to village square \r\n"
+    ItemsToRemove: 05000000
     ItemsToAdd: 
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 26044d2fbd2fbfe4ebdae17cc4275679, type: 2}
+  - {fileID: 11400000, guid: 59ed346635a28da4a9d75adadb5380af, type: 2}

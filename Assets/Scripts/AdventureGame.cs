@@ -61,10 +61,11 @@ public class AdventureGame : MonoBehaviour
 
     private void OnButtonClick(string buttonName)
     {
-        var showState = buttons.FindIndex(i => i.name == buttonName);
+        ManageItems(state.GetStateStory(player)); ;
 
+
+        var showState = buttons.FindIndex(i => i.name == buttonName);
         state = state.GetNextStates(player)[showState];
         ManageButtons();
-        ManageItems(state.GetStateStory(player)); ;
     }
 }

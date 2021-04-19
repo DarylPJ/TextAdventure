@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: NoKey
   m_EditorClassIdentifier: 
   story:
-    StoryText: 
+    StoryText: "The door is locked. \r\n\r\n1) Return to village square \r\n"
     ItemsToRemove: 
     ItemsToAdd: 
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 59ed346635a28da4a9d75adadb5380af, type: 2}
