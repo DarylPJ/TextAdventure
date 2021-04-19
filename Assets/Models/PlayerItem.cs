@@ -1,5 +1,10 @@
 ﻿public enum PlayerItem
 {
     ArmourAndSword,
-    SpokeToChurch
+    SpokeToChurch,
+    FaceBusted,
+    CastleKey,
+    CastleGateOpen,
+    HouseKey,
+    HouseOpen
 }

@@ -10,16 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
-  m_Name: CrossRoads
+  m_Name: OutsideChurchFaceBusted
   m_EditorClassIdentifier: 
   story:
-    StoryText: "You reach a crossroads. There is a sign that points to several directions
-      should you:\r\n\r\n1) Head West to the confounding forest\r\n2) Head North
-      to the castle \r\n3) Head East to the village  \r\n4) Head back to the cave"
+    StoryText: "You walk towards a majestic church that towers high above the village.
+      Two men are blocking the entrance. As you approach, they say quietly\r\n\r\n\u201CHello
+      my child. We are the church of the holy sun. We don\u2019t judge here please
+      come inside\u201D\r\n\r\n1) Go inside\r\n2) Return to the village square  \r"
     ItemsToRemove: 
     ItemsToAdd: 
   nextStates:
-  - {fileID: 11400000, guid: 61d074490aa1cd34d9bb94005d915157, type: 2}
-  - {fileID: 11400000, guid: 5e30e04f9d7444041ab2c7b1ebaedfd6, type: 2}
+  - {fileID: 11400000, guid: fe64ccb998e160b4b89ce6c3dfa5b80b, type: 2}
   - {fileID: 11400000, guid: 59ed346635a28da4a9d75adadb5380af, type: 2}
-  - {fileID: 11400000, guid: c6a8ab618b98e264fa1e93f535e3ceb5, type: 2}

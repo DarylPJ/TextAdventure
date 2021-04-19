@@ -10,7 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
-  m_Name: CastleStart
+  m_Name: GatesOpen
   m_EditorClassIdentifier: 
-  storyText: 
-  nextStates: []
+  story:
+    StoryText: "There is an open gate ahead.\r\n\r\n1) Proceed into the castle\r\n2)
+      Return to crossroads  \r"
+    ItemsToRemove: 
+    ItemsToAdd: 
+  nextStates:
+  - {fileID: 11400000, guid: 5da5e7ee9c20d0349a4be7218a3fce9c, type: 2}
+  - {fileID: 11400000, guid: 87fe16556f7bfd24ca99c2cf3d6885e4, type: 2}

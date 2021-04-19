@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66ea95e66e7218546b892418c672dc32, type: 3}
+  m_Name: CastleEntrance
+  m_EditorClassIdentifier: 
+  story:
+    StoryText: "You walk into the castle entrance. There is a locked gate ahead.
+      \r\n\r\n1) Open gate\r\n2) Retun to crossroads  \r\n"
+    ItemsToRemove: 
+    ItemsToAdd: 
+  nextStates:
+  - {fileID: 11400000, guid: 30519a30d76c33044a153694e8cd1491, type: 2}
+  - {fileID: 11400000, guid: 87fe16556f7bfd24ca99c2cf3d6885e4, type: 2}
+  statesBasedOnItems:
+  - Key: 3
+    StateStory: {fileID: 11400000, guid: ec33b4d35bbd8bb4c879202c937f8bf8, type: 2}
+  - Key: 4
+    StateStory: {fileID: 11400000, guid: 0a00dc88a4e647f4685806e4dfa205c8, type: 2}

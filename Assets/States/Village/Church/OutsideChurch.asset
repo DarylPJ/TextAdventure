@@ -30,5 +30,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 29876858c365ad946bb3c21c45fa28d4, type: 2}
   - {fileID: 11400000, guid: 59ed346635a28da4a9d75adadb5380af, type: 2}
   statesBasedOnItems:
+  - Key: 2
+    StateStory: {fileID: 11400000, guid: c428cbe064b1eb3448ddb263f087585a, type: 2}
   - Key: 1
     StateStory: {fileID: 11400000, guid: 4d5434002c1977744a2531dd081cb5ca, type: 2}
