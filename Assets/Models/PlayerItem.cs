@@ -1,4 +1,5 @@
 ﻿public enum PlayerItem
 {
-    ArmourAndSword
+    ArmourAndSword,
+    SpokeToChurch
 }

@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   story:
     StoryText: "You reach a crossroads. There is a sign that points to several directions
-    should you:\r\n\r\n1) Head West to the confounding forest\r\n2) Head North to
-    the castle \r\n3) Head East to the village  \r\n4) Head back to the cave"
+      should you:\r\n\r\n1) Head West to the confounding forest\r\n2) Head North
+      to the castle \r\n3) Head East to the village  \r\n4) Head back to the cave"
     ItemsToRemove: 
     ItemsToAdd: 
   nextStates:
   - {fileID: 11400000, guid: 61d074490aa1cd34d9bb94005d915157, type: 2}
   - {fileID: 11400000, guid: 3b3747244f5b31a4bb61b912f4058418, type: 2}
-  - {fileID: 11400000, guid: b7b155f65ef309549a8ae97d1285043b, type: 2}
+  - {fileID: 11400000, guid: 59ed346635a28da4a9d75adadb5380af, type: 2}
   - {fileID: 11400000, guid: c6a8ab618b98e264fa1e93f535e3ceb5, type: 2}

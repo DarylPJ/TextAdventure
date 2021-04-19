@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   story:
     StoryText: "You stand at the entrance to a forest. A sign reads \u201CThe Confounding
-    Forest. Turn back now\u201D\r\n\r\n1) Head into the forest\r\n2) Back to the
-    crossroads\r\n"
+      Forest. Turn back now\u201D\r\n\r\n1) Head into the forest\r\n2) Back to the
+      crossroads\r\n"
     ItemsToRemove: 
     ItemsToAdd: 
   nextStates:
   - {fileID: 11400000, guid: 79554333129b5e94f8e1da5fdbf5a064, type: 2}
   - {fileID: 11400000, guid: 87fe16556f7bfd24ca99c2cf3d6885e4, type: 2}
-  storyTextWithItem: 
-  nextStatesWithArmour: []
-  statesBasedOnItems: []
+  statesBasedOnItems:
+  - Key: 0
+    StateStory: {fileID: 11400000, guid: c4b11026a51e6f84dba8ec426a2d1012, type: 2}
