@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
+  m_Name: B231Market
+  m_EditorClassIdentifier: 
+  story:
+    StoryText: "\u201CYou don\u2019t remember do you. I can see it in your eyes.
+      You\u2026 you were the kings personal guard. The day the Goblin king attacked
+      you\u2026 You\u2026 You did everything you could but the king didn\u2019t make
+      it. You hit your head quite hard and stubbled off towards the caves.\u201D\n\n1)
+      \u201CFine! I will do it! I will slay the goblin king!!!\u201D"
+    ItemsToRemove: 
+    ItemsToAdd: 
+  nextStates:
+  - {fileID: 11400000, guid: c35253d663ab9e54285f35c18f07041f, type: 2}

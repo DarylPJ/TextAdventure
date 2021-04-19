@@ -6,5 +6,6 @@
     CastleKey,
     CastleGateOpen,
     HouseKey,
-    HouseOpen
+    HouseOpen,
+    BeenToMarket
 }
