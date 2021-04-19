@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
+  m_Name: 4.AllAreWelcome
+  m_EditorClassIdentifier: 
+  story:
+    StoryText: "\u201CEveryone except you\u201D\n\n1) \u201CI just want to see the
+      bishop\u201D\r\n2) \u201CI think you have me mistaken for someone else\u201D\r\n3)
+      \u201CWhat have I done to you\u201D\r\n4) \u201CDo you want to fight?\u201D\r\n5)
+      Leave and go back to the village square\r\n"
+    ItemsToRemove: 
+    ItemsToAdd: 
+  nextStates:
+  - {fileID: 11400000, guid: ed19bbf0634fbbb4d886c107460e400f, type: 2}
+  - {fileID: 11400000, guid: 130db5630b19c6b42819580c413a5003, type: 2}
+  - {fileID: 11400000, guid: 8908ec25c89083b41a12951ddc934a1f, type: 2}
+  - {fileID: 11400000, guid: 29876858c365ad946bb3c21c45fa28d4, type: 2}
+  - {fileID: 11400000, guid: 59ed346635a28da4a9d75adadb5380af, type: 2}

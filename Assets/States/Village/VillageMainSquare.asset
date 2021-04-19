@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66ea95e66e7218546b892418c672dc32, type: 3}
+  m_Name: VillageMainSquare
+  m_EditorClassIdentifier: 
+  story:
+    StoryText: "You stand in a village square. For some reason everyone\u2019s eyes
+      seem locked at you.  Do they know me? Where should you go\r\n\r\n1) Abandoned
+      House \r\n2) Church\r\n3) Market\r\n4) Tavern\r\n5) Wishing Well\r\n6) Back
+      to the crossroads \r\n"
+    ItemsToRemove: 
+    ItemsToAdd: 
+  nextStates:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 198e813e7e1eb244ea024a877ead23f0, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 492ffd69557487f4d858ac0a7370e226, type: 2}
+  - {fileID: 11400000, guid: 87fe16556f7bfd24ca99c2cf3d6885e4, type: 2}
+  statesBasedOnItems: []

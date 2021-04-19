@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66ea95e66e7218546b892418c672dc32, type: 3}
+  m_Name: OutsideChurch
+  m_EditorClassIdentifier: 
+  story:
+    StoryText: "You walk towards a majestic church that towers high above the village.
+      Two men are blocking the entrance. As you approach, they call\r\n\n\u201CWhat
+      are you doing here! As if someone like you would show there face to us.\u201D\r\n\n1)
+      \u201CI just want to see the bishop\u201D\r\n2) \u201CI think you have me mistaken
+      for someone else\u201D\r\n3) \u201CWhat have I done to you\u201D\r\n4) \u201CIsn\u2019t
+      everyone welcome in the church?\u201D\r\n5) \u201CDo you want to fight?\u201D\r\n6)
+      Leave and go back to the village square \r\n"
+    ItemsToRemove: 
+    ItemsToAdd: 01000000
+  nextStates:
+  - {fileID: 11400000, guid: ed19bbf0634fbbb4d886c107460e400f, type: 2}
+  - {fileID: 11400000, guid: 130db5630b19c6b42819580c413a5003, type: 2}
+  - {fileID: 11400000, guid: 8908ec25c89083b41a12951ddc934a1f, type: 2}
+  - {fileID: 11400000, guid: d68ea615bba8d1f4b993a0b190ccae15, type: 2}
+  - {fileID: 11400000, guid: 29876858c365ad946bb3c21c45fa28d4, type: 2}
+  - {fileID: 11400000, guid: 59ed346635a28da4a9d75adadb5380af, type: 2}
+  statesBasedOnItems:
+  - Key: 1
+    StateStory: {fileID: 11400000, guid: 4d5434002c1977744a2531dd081cb5ca, type: 2}
