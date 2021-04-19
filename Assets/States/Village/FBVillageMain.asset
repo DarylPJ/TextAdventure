@@ -9,13 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66ea95e66e7218546b892418c672dc32, type: 3}
-  m_Name: VillageMainSquare
+  m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
+  m_Name: FBVillageMain
   m_EditorClassIdentifier: 
   story:
-    StoryText: "You stand in a village square. Everyone seems to be avoiding you.
-      Do they know me? Where should you go?\n\r\n1) Abandoned House \r\n2) Church\r\n3)
-      Market\r\n4) Tavern\r\n5) Wishing Well\r\n6) Back to the crossroads \r\n"
+    StoryText: "You stand in a village square. No one seems to recognise you. It
+      seems the goblin king may have done you a favour. Where should you go?\n\n1)
+      Abandoned House \r\n2) Church\r\n3) Market\r\n4) Tavern\r\n5) Wishing Well\r\n6)
+      Back to the crossroads \r\n"
     ItemsToRemove: 
     ItemsToAdd: 
   nextStates:
@@ -25,6 +26,3 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a7582e4dc608c234c8b31e125f0bb772, type: 2}
   - {fileID: 11400000, guid: 492ffd69557487f4d858ac0a7370e226, type: 2}
   - {fileID: 11400000, guid: 87fe16556f7bfd24ca99c2cf3d6885e4, type: 2}
-  statesBasedOnItems:
-  - Key: 2
-    StateStory: {fileID: 11400000, guid: 6b5ceb91f9daad64ba4c5c054b318eac, type: 2}

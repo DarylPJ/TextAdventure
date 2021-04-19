@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66ea95e66e7218546b892418c672dc32, type: 3}
+  m_Name: TA4Building
+  m_EditorClassIdentifier: 
+  story:
+    StoryText: "\"The kings guard used to own it. Now it just sits abandoned. \"\n\n1)
+      \"Can I have it\"\n2) \u201CWhat is this place?\u201D\r\n3) \u201CWhat happened
+      at the castle?\u201D\r\n4) \u201CWhat can you tell me about the church?\u201D\r\n5)
+      Return to the village square  \r\n"
+    ItemsToRemove: 
+    ItemsToAdd: 
+  nextStates:
+  - {fileID: 11400000, guid: 7d1785f9cd310ab4caa5b757a4c4803d, type: 2}
+  - {fileID: 11400000, guid: aeab58e0cb06ef7488c9164e8ab222f9, type: 2}
+  - {fileID: 11400000, guid: 551343eb428f90a488cb84e546858492, type: 2}
+  - {fileID: 11400000, guid: 60f8348a043b7ba488dd989efbc89ac5, type: 2}
+  - {fileID: 11400000, guid: 59ed346635a28da4a9d75adadb5380af, type: 2}
+  statesBasedOnItems:
+  - Key: 5
+    StateStory: {fileID: 11400000, guid: fb7447531ee09294b84761ec26ec6303, type: 2}
+  - Key: 12
+    StateStory: {fileID: 11400000, guid: 7a4e8adf5487bc04d87653d90e695a22, type: 2}
+  - Key: 8
+    StateStory: {fileID: 11400000, guid: 77021bfb1d701f448bf84d92154fab59, type: 2}

@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
-  m_Name: LoveLetter
+  m_Name: LoveLetterDelivered
   m_EditorClassIdentifier: 
   story:
-    StoryText: "You walk over to Anabelle. \"Is that a letter for me. Whats it about?\"\r\n\r\n1)
-      \"it\u2019s a love letter from Archie\"\r\n2) \"Probably some bills\""
+    StoryText: "You walk over to the bartender he quickly asks\r\n\r\n\u201CHave
+      you delivered the letter?\u201D\r\n\r\n1) \u201CYes she said she wants a date
+      with you\u201D\r\n2) \u201CIt\u2019s a DATE!\u201D\r\n"
     ItemsToRemove: 
     ItemsToAdd: 
   nextStates:
-  - {fileID: 11400000, guid: d29582ac9f7e6e8409d97e1622466170, type: 2}
-  - {fileID: 11400000, guid: 2027e9fcfdc554a4fb079b33a5728918, type: 2}
+  - {fileID: 11400000, guid: c06c0ba886b9ac74a81ae7918854aeb9, type: 2}
+  - {fileID: 11400000, guid: c06c0ba886b9ac74a81ae7918854aeb9, type: 2}

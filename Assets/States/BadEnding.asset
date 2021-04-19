@@ -13,7 +13,13 @@ MonoBehaviour:
   m_Name: BadEnding
   m_EditorClassIdentifier: 
   story:
-    StoryText: 
+    StoryText: "The power ends up corrupting you. You rule in much the same way as
+      the goblin king did until one day the people of the village storm the castle
+      and make your head roll. \n\nThe end.\r\n\r\nThanks so much for playing this
+      game! I hoped you enjoyed this small text adventure\r\n\r\n1) Start again\r\n2)
+      See other games/apps.\r\n"
     ItemsToRemove: 
-    ItemsToAdd: 
-  nextStates: []
+    ItemsToAdd: 0a000000
+  nextStates:
+  - {fileID: 11400000, guid: 9f65baf732d74164da0f49e4c03bf52c, type: 2}
+  - {fileID: 11400000, guid: 14c6ed8a6dd982b45a64ec5be9202cb7, type: 2}

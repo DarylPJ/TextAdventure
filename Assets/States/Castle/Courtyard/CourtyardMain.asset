@@ -29,6 +29,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 87fe16556f7bfd24ca99c2cf3d6885e4, type: 2}
   statesBasedOnItems:
   - Key: 0
-    StateStory: {fileID: 0}
+    StateStory: {fileID: 11400000, guid: 1aa17ffc62a06944f9cb069aa2200a6d, type: 2}
   - Key: 2
     StateStory: {fileID: 11400000, guid: 6bd9fc1d21466be489eb6e66c622f492, type: 2}

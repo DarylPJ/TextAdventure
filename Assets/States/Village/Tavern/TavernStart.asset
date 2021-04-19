@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66ea95e66e7218546b892418c672dc32, type: 3}
+  m_Name: TavernStart
+  m_EditorClassIdentifier: 
+  story:
+    StoryText: "You walk into the Tavern. A billowing voice from the back shouts
+      \r\n\r\n\u201CWho let you in! GET OUT MY TAVERN\u201D\r\n\n1) Return to the
+      village square  \r"
+    ItemsToRemove: 
+    ItemsToAdd: 
+  nextStates:
+  - {fileID: 11400000, guid: 59ed346635a28da4a9d75adadb5380af, type: 2}
+  statesBasedOnItems:
+  - Key: 12
+    StateStory: {fileID: 11400000, guid: 6e8dfcdaeee08c5489f6b489725afa66, type: 2}
+  - Key: 9
+    StateStory: {fileID: 11400000, guid: da75d05b817abb3458903f6f494155fb, type: 2}
+  - Key: 13
+    StateStory: {fileID: 11400000, guid: 6e8dfcdaeee08c5489f6b489725afa66, type: 2}
+  - Key: 2
+    StateStory: {fileID: 11400000, guid: 85a86eae7f34a6440a7b2168b05a9511, type: 2}

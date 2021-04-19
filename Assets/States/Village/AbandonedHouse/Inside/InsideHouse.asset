@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   story:
     StoryText: "The house looks like it has been looted. You walk around and notice
-      an engraving  on the wall next to your bed. \r\n\r\nOn the wall you see a picture
+      an engraving on the wall next to your bed. \r\n\r\nOn the wall you see a picture
       of a sword and some trees with the letters N, S, E, E, W. What could this be
       referring to? \r\n\r\n1) leave house\r"
     ItemsToRemove: 

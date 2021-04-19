@@ -13,7 +13,29 @@ MonoBehaviour:
   m_Name: GoodEnding
   m_EditorClassIdentifier: 
   story:
-    StoryText: 
+    StoryText: 'You travel to the village and declare the good news an impromptu
+      party breaks out. The kingdom is saved and everyone lives in peace and prosperity.
+
+      
+
+      The
+      end.
+
+      
+
+      Thanks so much for playing this game! I hoped you enjoyed
+      this small text adventure
+
+      
+
+      1) Start again
+
+      2) See other
+      games/apps.
+
+'
     ItemsToRemove: 
-    ItemsToAdd: 
-  nextStates: []
+    ItemsToAdd: 0a000000
+  nextStates:
+  - {fileID: 11400000, guid: 9f65baf732d74164da0f49e4c03bf52c, type: 2}
+  - {fileID: 11400000, guid: 14c6ed8a6dd982b45a64ec5be9202cb7, type: 2}

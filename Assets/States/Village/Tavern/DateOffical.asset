@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
+  m_Name: DateOffical
+  m_EditorClassIdentifier: 
+  story:
+    StoryText: "\u201CThank you so much. Here take this note from me. It recommends
+      that you get that house.\u201D \n\nDo you have anything else you want to ask
+      Archie about?\n\n1) \"What is this place?\"\r\n2) \"What happened at the castle?\"\r\n3)
+      \"What can you tell me about the church?\"\r\n4) \"What\u2019s up with that
+      abandoned buildering?\"\r\n5) Return to the village square  "
+    ItemsToRemove: 
+    ItemsToAdd: 0c000000
+  nextStates:
+  - {fileID: 11400000, guid: aeab58e0cb06ef7488c9164e8ab222f9, type: 2}
+  - {fileID: 11400000, guid: 551343eb428f90a488cb84e546858492, type: 2}
+  - {fileID: 11400000, guid: 60f8348a043b7ba488dd989efbc89ac5, type: 2}
+  - {fileID: 11400000, guid: 23e9ad7ab1b65f944bc38bb190efcf45, type: 2}
+  - {fileID: 11400000, guid: 59ed346635a28da4a9d75adadb5380af, type: 2}

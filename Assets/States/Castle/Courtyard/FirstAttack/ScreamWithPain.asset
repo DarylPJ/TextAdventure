@@ -16,7 +16,7 @@ MonoBehaviour:
     StoryText: "You pass out with the pain and wake up later your whole face throbbing.
       \u201CGO! NOW!\u201D you hear the Gobblin king scream.\r\n\r\nAs you rush to
       the exit you catch a glimpse of yourself in a mirror. Your face is so disfigured
-      from the fire you barely recognise yourself. \r\n\r\n1)  Leave as quickly as
+      from the fire you barely recognise yourself. \r\n\r\n1) Leave as quickly as
       possible \r\n2) Go back and fight \r"
     ItemsToRemove: 
     ItemsToAdd: 02000000

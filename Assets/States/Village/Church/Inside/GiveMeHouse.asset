@@ -10,22 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66ea95e66e7218546b892418c672dc32, type: 3}
-  m_Name: InsideChurch
+  m_Name: GiveMeHouse
   m_EditorClassIdentifier: 
   story:
-    StoryText: "The church is grander than anything you could image. There is a bishop
-      standing near the alter.\r\n\r\nAs you approach he says \u201CCome child of
-      the eternal flame. Do you have a question for me\u201D\r\n\r\n1) \u201CWhat
-      is this place?\u201D\r\n2) \u201CWhat happened to the castle?\u201D\r\n3) \u201CWhat\u2019s
-      going on with that abandoned building?\u201D\r\n4) Return to the village square 
-      \n"
+    StoryText: "\"Unfortunately, it\u2019s not just up to me both me and the tavern
+      owner must agree before someone is housed. I would never see a needy person
+      without a home, but rules are rules.\"\n\n1) \u201CWhat is this place?\u201D\r\n2)
+      \u201CWhat happened to the castle?\u201D\r\n3) \u201CWhat\u2019s going on with
+      that abandoned building?\u201D\r\n4) Return to the village square  \r\n\n"
     ItemsToRemove: 
-    ItemsToAdd: 0b000000
+    ItemsToAdd: 
   nextStates:
   - {fileID: 11400000, guid: 753592e5b807ffe4397b5d5ae7ed4846, type: 2}
   - {fileID: 11400000, guid: 8bb416116365d214db1bc89efdeffb38, type: 2}
   - {fileID: 11400000, guid: a09a71b4fe73c9f4cb5e041f0455c8db, type: 2}
   - {fileID: 11400000, guid: 59ed346635a28da4a9d75adadb5380af, type: 2}
   statesBasedOnItems:
-  - Key: 11
-    StateStory: {fileID: 11400000, guid: 279f59904d50ee7418e7fbbe78770e18, type: 2}
+  - Key: 12
+    StateStory: {fileID: 11400000, guid: 86194efadd1598f49964550e5bda251b, type: 2}

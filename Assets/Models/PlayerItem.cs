@@ -10,5 +10,8 @@
     BeenToMarket,
     ArchieLoveLetter,
     ArchieLoveLetterDelivered,
-    GameOver
+    GameOver,
+    InsideChurch,
+    ArchieHouseDeed,
+    TavernVisited
 }

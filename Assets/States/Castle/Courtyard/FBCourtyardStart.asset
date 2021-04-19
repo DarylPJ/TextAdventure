@@ -29,4 +29,6 @@ MonoBehaviour:
 '
     ItemsToRemove: 
     ItemsToAdd: 
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 3d6b23ad5903a24458446ee3817ad4f7, type: 2}
+  - {fileID: 11400000, guid: 87fe16556f7bfd24ca99c2cf3d6885e4, type: 2}

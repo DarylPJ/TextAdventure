@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
-  m_Name: LoveLetter
+  m_Name: GetHouseKey
   m_EditorClassIdentifier: 
   story:
-    StoryText: "You walk over to Anabelle. \"Is that a letter for me. Whats it about?\"\r\n\r\n1)
-      \"it\u2019s a love letter from Archie\"\r\n2) \"Probably some bills\""
+    StoryText: "\"Unfortunately, it\u2019s not just up to me both me and the tavern
+      owner must agree before someone is housed. I would never see a needy person
+      without a home, but rules are rules.\"\n\n1) Show the note from Archie\n"
     ItemsToRemove: 
     ItemsToAdd: 
   nextStates:
-  - {fileID: 11400000, guid: d29582ac9f7e6e8409d97e1622466170, type: 2}
-  - {fileID: 11400000, guid: 2027e9fcfdc554a4fb079b33a5728918, type: 2}
+  - {fileID: 11400000, guid: 2da0e8bacbe79144d83176e98bd8e7bb, type: 2}

@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
-  m_Name: A2LoveLetter
+  m_Name: A3BuildingAlt
   m_EditorClassIdentifier: 
   story:
-    StoryText: "\u201CYour such a joker its clearly form Archie\u201D\n\nAnabelle
-      reads the letter intensely and askes you tell Archie he has a date\r\n\r\n1)
-      Return to village square\r\n2) Keep talking to Anabelle\r\n"
-    ItemsToRemove: 08000000
-    ItemsToAdd: 09000000
+    StoryText: "\"The building is yours... I gave you the key... Do you not remember
+      this!\"\n\n1) \u201CWhat is this place?\u201D\r\n2) \u201CWhat happened to
+      the castle?\u201D\r\n3) Return to the village square  \r"
+    ItemsToRemove: 
+    ItemsToAdd: 
   nextStates:
+  - {fileID: 11400000, guid: 753592e5b807ffe4397b5d5ae7ed4846, type: 2}
+  - {fileID: 11400000, guid: 8bb416116365d214db1bc89efdeffb38, type: 2}
   - {fileID: 11400000, guid: 59ed346635a28da4a9d75adadb5380af, type: 2}
-  - {fileID: 11400000, guid: bb02b17db7551474884e64adb8d1c12d, type: 2}

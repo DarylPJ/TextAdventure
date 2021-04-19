@@ -13,7 +13,12 @@ MonoBehaviour:
   m_Name: FinalAttack
   m_EditorClassIdentifier: 
   story:
-    StoryText: 
+    StoryText: "You rush straight towards the goblin king.\r\nHis club hits you but
+      your armour protects you from harm. \r\n\nYou see an opening and slice off
+      his head. It rolls slowly along the floor.\r\n\r\n1) Declare yourself king\r\n2)
+      Declare that the castle is owned by the people of the village\r\n"
     ItemsToRemove: 
     ItemsToAdd: 
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: 276bb52cc0e305846bfe5a47b65b9e42, type: 2}
+  - {fileID: 11400000, guid: e279cfb445be1e44ab6f9cbc7da659c8, type: 2}

@@ -10,11 +10,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
-  m_Name: NoKey
+  m_Name: GoneInHouse
   m_EditorClassIdentifier: 
   story:
-    StoryText: "The door is locked. \r\n\r\n1) Return to village square \r\n"
+    StoryText: '"See you have the key to the house. Congratulations!"
+
+      
+
+      1)
+      "What is this place?"
+
+      2) "What happened at the castle?"
+
+      3)
+      "What can you tell me about the church?"
+
+      4) Return to the village square  '
     ItemsToRemove: 
     ItemsToAdd: 
   nextStates:
+  - {fileID: 11400000, guid: aeab58e0cb06ef7488c9164e8ab222f9, type: 2}
+  - {fileID: 11400000, guid: 551343eb428f90a488cb84e546858492, type: 2}
+  - {fileID: 11400000, guid: 60f8348a043b7ba488dd989efbc89ac5, type: 2}
   - {fileID: 11400000, guid: 59ed346635a28da4a9d75adadb5380af, type: 2}

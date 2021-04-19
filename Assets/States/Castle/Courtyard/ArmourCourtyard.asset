@@ -13,7 +13,23 @@ MonoBehaviour:
   m_Name: ArmourCourtyard
   m_EditorClassIdentifier: 
   story:
-    StoryText: 
+    StoryText: 'Inside the castle you come across a courtyard inside you can see
+      the goblin king.
+
+      
+
+      With your armour and sword nothing can stand
+      in your way
+
+      
+
+      1) Attack
+
+      2) Return to crossroads
+
+'
     ItemsToRemove: 
     ItemsToAdd: 
-  nextStates: []
+  nextStates:
+  - {fileID: 11400000, guid: dd0cb28609f3a6d41be0a1ac9a4c342a, type: 2}
+  - {fileID: 11400000, guid: 87fe16556f7bfd24ca99c2cf3d6885e4, type: 2}

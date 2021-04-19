@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66ea95e66e7218546b892418c672dc32, type: 3}
+  m_Name: A3Building
+  m_EditorClassIdentifier: 
+  story:
+    StoryText: "\"The building used to belong to the king\u2019s guard. It is currently
+      vacant and in the ownership of the church.\"\n\n1) \"Can I have it\"\n2) \u201CWhat
+      is this place?\u201D\r\n3) \u201CWhat happened to the castle?\u201D\r\n4) Return
+      to the village square  \r\n"
+    ItemsToRemove: 
+    ItemsToAdd: 
+  nextStates:
+  - {fileID: 11400000, guid: 574a2d90f9a1ad949945f0c79659a6f8, type: 2}
+  - {fileID: 11400000, guid: 753592e5b807ffe4397b5d5ae7ed4846, type: 2}
+  - {fileID: 11400000, guid: 8bb416116365d214db1bc89efdeffb38, type: 2}
+  - {fileID: 11400000, guid: 59ed346635a28da4a9d75adadb5380af, type: 2}
+  statesBasedOnItems:
+  - Key: 5
+    StateStory: {fileID: 11400000, guid: ef8c62d563d074748a1ca8c10e82f0c9, type: 2}

@@ -18,10 +18,8 @@ MonoBehaviour:
     ItemsToRemove: 
     ItemsToAdd: 
   nextStates:
-  - {fileID: 11400000, guid: 9831187c56547044d8e464c1a7c0f671, type: 2}
+  - {fileID: 11400000, guid: 35467a5835fd2ae41a8f7af0ecc0aa63, type: 2}
   - {fileID: 11400000, guid: 59ed346635a28da4a9d75adadb5380af, type: 2}
   statesBasedOnItems:
   - Key: 6
     StateStory: {fileID: 11400000, guid: 26044d2fbd2fbfe4ebdae17cc4275679, type: 2}
-  - Key: 5
-    StateStory: {fileID: 11400000, guid: 7640abfd46e6f4b419248b40efb39c4e, type: 2}

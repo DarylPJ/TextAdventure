@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
+  m_Name: A2Castle
+  m_EditorClassIdentifier: 
+  story:
+    StoryText: "\"The castle! You mean you don\u2019t know. SIN! Sin everywhere is
+      what happened. People had converted gold too much and lost sight of the real
+      forces of nature. It was only a matter of time before the undevoted were culled.\"\n\n1)
+      \u201CWhat is this place?\u201D\r\n2) \u201CWhat\u2019s going on with that
+      abandoned building?\u201D\r\n3) Return to the village square  \r\n"
+    ItemsToRemove: 
+    ItemsToAdd: 
+  nextStates:
+  - {fileID: 11400000, guid: 753592e5b807ffe4397b5d5ae7ed4846, type: 2}
+  - {fileID: 11400000, guid: a09a71b4fe73c9f4cb5e041f0455c8db, type: 2}
+  - {fileID: 11400000, guid: 59ed346635a28da4a9d75adadb5380af, type: 2}
