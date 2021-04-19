@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
+  m_Name: B2FirstAttack
+  m_EditorClassIdentifier: 
+  story:
+    StoryText: "Don\u2019t start lying just because you are WEAK!\r\n\nThe goblin
+      king drags you into the castle and pushes your face into the fire. You feel
+      the flesh blister. The pain is agonising.  All you can do is scream with pain\r\n\r\n1)
+      Scream with pain\r\n2) Scream with pain\r\n3) Scream with pain\r\n4) Scream
+      with pain\r\n5) Scream with pain\r\n6) Scream with pain\n"
+    ItemsToRemove: 
+    ItemsToAdd: 
+  nextStates:
+  - {fileID: 11400000, guid: 6bcf47f705159774f82ab8707c9d91f5, type: 2}
+  - {fileID: 11400000, guid: 6bcf47f705159774f82ab8707c9d91f5, type: 2}
+  - {fileID: 11400000, guid: 6bcf47f705159774f82ab8707c9d91f5, type: 2}
+  - {fileID: 11400000, guid: 6bcf47f705159774f82ab8707c9d91f5, type: 2}
+  - {fileID: 11400000, guid: 6bcf47f705159774f82ab8707c9d91f5, type: 2}
+  - {fileID: 11400000, guid: 6bcf47f705159774f82ab8707c9d91f5, type: 2}

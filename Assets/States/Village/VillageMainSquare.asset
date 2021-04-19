@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: VillageMainSquare
   m_EditorClassIdentifier: 
   story:
-    StoryText: "You stand in a village square. For some reason everyone\u2019s eyes
-      seem locked at you.  Do they know me? Where should you go\r\n\r\n1) Abandoned
-      House \r\n2) Church\r\n3) Market\r\n4) Tavern\r\n5) Wishing Well\r\n6) Back
-      to the crossroads \r\n"
+    StoryText: "You stand in a village square. Everyone seems to be avoiding you 
+      Do they know me? Where should you go\r\n\r\n1) Abandoned House \r\n2) Church\r\n3)
+      Market\r\n4) Tavern\r\n5) Wishing Well\r\n6) Back to the crossroads \r\n"
     ItemsToRemove: 
     ItemsToAdd: 
   nextStates:

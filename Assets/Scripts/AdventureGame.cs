@@ -10,7 +10,7 @@ public class AdventureGame : MonoBehaviour
     [SerializeField] private List<Button> buttons;
 
     private StateBase state;
-    private readonly Player player = new Player();
+    private Player player = new Player();
 
     // Start is called before the first frame update
     private void Start()
@@ -48,6 +48,11 @@ public class AdventureGame : MonoBehaviour
 
     private void ManageItems(StateStory stateStory)
     {
+        if (player.Items.Contains(PlayerItem.GameOver))
+        {
+            player = new Player();
+        }
+
         foreach (var item in stateStory.ItemsToAdd)
         {
             player.Items.Add(item);
@@ -63,9 +68,14 @@ public class AdventureGame : MonoBehaviour
     {
         ManageItems(state.GetStateStory(player)); ;
 
-
         var showState = buttons.FindIndex(i => i.name == buttonName);
         state = state.GetNextStates(player)[showState];
+
+        if (state is LinkToAppsState)
+        {
+            Application.OpenURL("https://play.google.com/store/apps/developer?id=Daryl+Jones");
+        }
+
         ManageButtons();
     }
 }

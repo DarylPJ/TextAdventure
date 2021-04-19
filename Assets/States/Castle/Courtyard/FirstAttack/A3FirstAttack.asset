@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
+  m_Name: A3FirstAttack
+  m_EditorClassIdentifier: 
+  story:
+    StoryText: "You turn around mid-run and start running in the opposite direction.
+      The goblin king catches up to you and says \r\n\r\n\u201CWhat are you doing
+      running around my courtyard?\u201D\r\n\r\n1) \u201CIm here to put a stop to
+      you\u201D\r\n2) \u201CSorry oh wise one. I pledge my undying allegiance to
+      you\u201D \r"
+    ItemsToRemove: 
+    ItemsToAdd: 
+  nextStates:
+  - {fileID: 11400000, guid: 1f80ca479fe28f84ca59a414bc66efa9, type: 2}
+  - {fileID: 11400000, guid: eb944e3b39a68b240a0f4b99aa05c75b, type: 2}

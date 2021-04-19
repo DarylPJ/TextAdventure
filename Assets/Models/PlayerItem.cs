@@ -9,5 +9,6 @@
     HouseOpen,
     BeenToMarket,
     ArchieLoveLetter,
-    ArchieLoveLetterDelivered
+    ArchieLoveLetterDelivered,
+    GameOver
 }

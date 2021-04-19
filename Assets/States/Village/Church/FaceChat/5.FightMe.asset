@@ -13,12 +13,11 @@ MonoBehaviour:
   m_Name: 5.FightMe
   m_EditorClassIdentifier: 
   story:
-    StoryText: "\u201CHA! I needed a good laugh. You have no weapon or skill for
-      that matter. You\u2019re not even worth killing\u201D\n\n1) \u201CI just want
-      to see the bishop\u201D\r\n2) \u201CI think you have me mistaken for someone
-      else\u201D\r\n3) \u201CWhat have I done to you\u201D\r\n4) \u201CIsn\u2019t
-      everyone welcome in the church?\u201D\r\n5) Leave and go back to the village
-      square\r\n"
+    StoryText: "\u201CHA! I needed a good laugh you have no skill in battle. You\u2019re
+      not even worth killing\u201D\n\n1) \u201CI just want to see the bishop\u201D\r\n2)
+      \u201CI think you have me mistaken for someone else\u201D\r\n3) \u201CWhat
+      have I done to you\u201D\r\n4) \u201CIsn\u2019t everyone welcome in the church?\u201D\r\n5)
+      Leave and go back to the village square\r\n"
     ItemsToRemove: 
     ItemsToAdd: 
   nextStates:

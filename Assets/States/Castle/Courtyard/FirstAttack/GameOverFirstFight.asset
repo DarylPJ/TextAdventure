@@ -10,17 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
-  m_Name: CaveGameOver
+  m_Name: GameOverFirstFight
   m_EditorClassIdentifier: 
   story:
-    StoryText: 'GAME OVER!
-
-
-
-      You died of natural causes.
-
-
-      1) Try again'
+    StoryText: "You rush towards the goblin king. Out of nowhere a club flytowards
+      you and slits your head open. \r\n\r\nGAME OVER\r\n\r\n1) Start Again\r"
     ItemsToRemove: 
     ItemsToAdd: 0a000000
   nextStates:

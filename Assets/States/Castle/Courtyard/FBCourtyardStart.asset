@@ -9,26 +9,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66ea95e66e7218546b892418c672dc32, type: 3}
-  m_Name: CourtyardMain
+  m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
+  m_Name: FBCourtyardStart
   m_EditorClassIdentifier: 
   story:
     StoryText: 'Inside the castle you come across a courtyard inside you can see
       the goblin king.
 
 
-      1) Attack
+      Its probably best not to attack the goblin king again
+      unarmed.
+
+      
+
+      1) Attack anyway
 
       2) Return to crossroads
 
 '
     ItemsToRemove: 
     ItemsToAdd: 
-  nextStates:
-  - {fileID: 11400000, guid: 754ea6a1bfcb0a9469c94798a1a82067, type: 2}
-  - {fileID: 11400000, guid: 87fe16556f7bfd24ca99c2cf3d6885e4, type: 2}
-  statesBasedOnItems:
-  - Key: 0
-    StateStory: {fileID: 0}
-  - Key: 2
-    StateStory: {fileID: 11400000, guid: 6bd9fc1d21466be489eb6e66c622f492, type: 2}
+  nextStates: []

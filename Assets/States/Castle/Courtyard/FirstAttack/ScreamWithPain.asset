@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63beda7083c80d145a76e015b5031cae, type: 3}
+  m_Name: ScreamWithPain
+  m_EditorClassIdentifier: 
+  story:
+    StoryText: "You pass out with the pain and wake up later your whole face throbbing.
+      \u201CGO! NOW!\u201D you hear the Gobblin king scream.\r\n\r\nAs you rush to
+      the exit you catch a glimpse of yourself in a mirror. Your face is so disfigured
+      from the fire you barely recognise yourself. \r\n\r\n1)  Leave as quickly as
+      possible \r\n2) Go back and fight \r"
+    ItemsToRemove: 
+    ItemsToAdd: 02000000
+  nextStates:
+  - {fileID: 11400000, guid: 87fe16556f7bfd24ca99c2cf3d6885e4, type: 2}
+  - {fileID: 11400000, guid: 3d6b23ad5903a24458446ee3817ad4f7, type: 2}
