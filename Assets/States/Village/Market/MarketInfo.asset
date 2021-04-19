@@ -10,15 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 66ea95e66e7218546b892418c672dc32, type: 3}
-  m_Name: OpenGateNoKey
+  m_Name: MarketInfo
   m_EditorClassIdentifier: 
   story:
-    StoryText: "You try to open the gate. But its locked.\r\n\n1) Return to crossroads 
-      \r\n"
+    StoryText: "Do you have something you want to say to Anabelle?\n\n1) \u201CTell
+      me about the Tavern\u201D \r\n2) \u201CTell me about the church\u201D\r\n3)
+      \u201CTell me about the abandoned house\u201D\r\n4) \u201CWhat do I need to
+      do again\u201D"
     ItemsToRemove: 
     ItemsToAdd: 
-  nextStates:
-  - {fileID: 11400000, guid: 87fe16556f7bfd24ca99c2cf3d6885e4, type: 2}
-  statesBasedOnItems:
-  - Key: 3
-    StateStory: {fileID: 11400000, guid: ec33b4d35bbd8bb4c879202c937f8bf8, type: 2}
+  nextStates: []
+  statesBasedOnItems: []

@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: AgreetoQuest
   m_EditorClassIdentifier: 
   story:
-    StoryText: "\u201CExcellent I still have a castle key here it is. \r\nYour old
-      house is still in the village. I believe the bishop at the church of the sun
-      has your key\u201D\r\n\n1) Leave market\n"
+    StoryText: "\u201CExcellent I still have a castle key here it is. Do you have
+      anything else you wish to ask?\u201D\r\n\n1) Yes\n2) No\n"
     ItemsToRemove: 
     ItemsToAdd: 0300000007000000
   nextStates:
-  - {fileID: 11400000, guid: 87fe16556f7bfd24ca99c2cf3d6885e4, type: 2}
+  - {fileID: 11400000, guid: 82f9ee623ec28154baf90dc92d72b3c9, type: 2}
+  - {fileID: 11400000, guid: 59ed346635a28da4a9d75adadb5380af, type: 2}

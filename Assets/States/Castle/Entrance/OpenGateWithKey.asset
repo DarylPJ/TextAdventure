@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: OpenGateWithKey
   m_EditorClassIdentifier: 
   story:
-    StoryText: "You insert the key into the gate. It slides open. \r\n\r\n1) Proceed
-      into the castle\r\n2) Return to crossroads \r"
-    ItemsToRemove: 03000000
-    ItemsToAdd: 
+    StoryText: "You insert the castle key into the gate. It slides open. \r\n\r\n1)
+      Proceed into the castle\r\n2) Return to crossroads \r"
+    ItemsToRemove: 
+    ItemsToAdd: 04000000
   nextStates:
   - {fileID: 11400000, guid: 5da5e7ee9c20d0349a4be7218a3fce9c, type: 2}
   - {fileID: 11400000, guid: 87fe16556f7bfd24ca99c2cf3d6885e4, type: 2}

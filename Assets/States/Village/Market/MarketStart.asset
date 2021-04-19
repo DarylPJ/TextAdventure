@@ -24,4 +24,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d4ccc1b3e15e2274bb79a06043387718, type: 2}
   - {fileID: 11400000, guid: d4ccc1b3e15e2274bb79a06043387718, type: 2}
   - {fileID: 11400000, guid: 8da35f7dd3a1ffa46bbf43b03f2d1f82, type: 2}
-  statesBasedOnItems: []
+  statesBasedOnItems:
+  - Key: 7
+    StateStory: {fileID: 11400000, guid: 82f9ee623ec28154baf90dc92d72b3c9, type: 2}
