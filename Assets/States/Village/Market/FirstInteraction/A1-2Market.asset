@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: A1-2Market
   m_EditorClassIdentifier: 
   story:
-    StoryText: "\u201CWe thought you dead and you just show up like nothing has happened.
-      The people here they think you let the castle fall. I tried to tell them how
-      the goblin took over and killed the guards.\u201D\r\n\r\n1) \u201CWhat did
-      I do?\u201D\n2) \u201CWho are you?\u201D\r\n3) \u201CWhat\u2019s all this talk
-      of a Goblin?\u201D \r\n"
+    StoryText: "\u201CWe thought you were dead and you just show up like nothing
+      has happened. The people here they think you let the castle fall. I tried to
+      tell them how the goblin took over and killed the guards.\u201D\r\n\r\n1) \u201CWhat
+      did I do?\u201D\n2) \u201CWho are you?\u201D\r\n3) \u201CWhat\u2019s all this
+      talk of a Goblin?\u201D \r\n"
     ItemsToRemove: 
     ItemsToAdd: 
   nextStates:
